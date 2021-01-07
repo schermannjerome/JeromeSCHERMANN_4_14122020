@@ -628,12 +628,10 @@ cite{
     max-width: 400px;
     margin: 25px auto 25px auto;
 }
-
 h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
-
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -666,7 +664,9 @@ h4 {
 .grey{
     color: #424242;
 }
-
+.lien{
+    font-weight: bold;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -752,7 +752,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.jpg");
 }
 /* --------------------------           Media queries ------------------------*/
 @media (min-width: 768px)
@@ -762,7 +762,7 @@ h4 {
         position: absolute;
         top:20px;
         right: 15px;
-        margin-right: 0;
+        
     }
 
     #logo_agence
