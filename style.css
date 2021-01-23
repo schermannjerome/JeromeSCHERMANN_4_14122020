@@ -15,7 +15,10 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-
+a:focus {
+    color:#337ab7;
+    font-weight: bold;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -897,9 +900,6 @@ nav .caret {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    .bloc {
-        
     }
     .bloc-group,
     .bloc-group .bloc {
